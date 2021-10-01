@@ -14,10 +14,10 @@ public class ComLineAdder {
                 System.out.printf("Couldn't convert %s\n",args[ndx]);
             }   
         }
-        for(int j = 0; j < numbers.size(); j++){
-            sum += numbers.get(j);
+        for(int i = 0; i < numbers.size(); i++){
+            sum += numbers.get(i);
             average = sum/numbers.size();
         }
-        System.out.printf("%d arguments, %1.2f average, sum of %d values is: %,d\n",args.length,average,count,sum);
+        System.out.printf("%d arguments, %1.1f average, sum of %d values is: %,d\n",args.length,average,count,sum);
     }
 }
