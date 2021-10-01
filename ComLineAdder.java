@@ -10,7 +10,7 @@ public class ComLineAdder {
                 sum += Integer.parseInt(args[ndx]);
                 int i = Integer.parseInt(args[ndx]);
                 intAmount.add(i);
-                count++;
+                 count++;
             } catch (Exception e) {
                 System.out.printf("Couldn't convert %s\n",args[ndx]);
                 
@@ -23,5 +23,3 @@ public class ComLineAdder {
     }
 }
 
-/*Couldnt figure out how i can get it to count a string in the  
- amount of values that are entered but it adds up into the sum*/
