@@ -9,5 +9,7 @@ public class ComLineAdder {
             }       
         }
         System.out.printf("Sum of %d values is: %,d\n",args.length,sum);
+        double average = ((double)sum/(double)args.length);
+        System.out.printf("Average: %.2f\n",average);
     }
 }
