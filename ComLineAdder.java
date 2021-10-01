@@ -18,6 +18,6 @@ public class ComLineAdder {
             sum += numbers.get(i);
             average = sum/numbers.size();
         }
-        System.out.printf("%d arguments, %1.1f Average, sum of %d values is: %,d\n",args.length,average,count,sum);
+        System.out.printf("%d arguments , %1.1f Average, sum of %d values is: %,d\n",args.length,average,count,sum);
     }
 }
