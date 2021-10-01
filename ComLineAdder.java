@@ -10,6 +10,6 @@ public class ComLineAdder {
                 System.out.printf("Couldn't convert %s\n",args[ndx]);
             }       
         }
-        System.out.printf("%d arguments,sum of %d values is: %,d\n",args.length,count,sum);
+        System.out.printf("%d arguments, sum of %d values is: %,d\n",args.length,count,sum);
     }
 }
