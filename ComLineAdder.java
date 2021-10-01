@@ -6,6 +6,7 @@ public class ComLineAdder {
             try {
                 sum += Integer.parseInt(args[ndx]);
                 count++;
+                
             } catch (Exception e) {
                 System.out.printf("Couldn't convert %s\n",args[ndx]);
             }       
