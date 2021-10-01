@@ -5,8 +5,7 @@ public class ComLineAdder {
         for(int ndx = 0; ndx < args.length; ndx++) {
             try {
                 sum += Integer.parseInt(args[ndx]);
-                count++;
-                
+                count++;  
             } catch (Exception e) {
                 System.out.printf("Couldn't convert %s\n",args[ndx]);
             }       
